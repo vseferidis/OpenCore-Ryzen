@@ -474,6 +474,8 @@
 		<key>Patch</key>
 		<array>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -502,6 +504,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpu_topology_sort</string>
 				<key>Comment</key>
@@ -530,6 +534,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -558,6 +564,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -586,6 +594,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -614,6 +624,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -642,6 +654,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -670,6 +684,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -698,6 +714,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -726,6 +744,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -754,6 +774,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -782,6 +804,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -810,6 +834,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -838,6 +864,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -866,6 +894,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -894,6 +924,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -922,6 +954,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -950,6 +984,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -978,6 +1014,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -1006,6 +1044,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -1034,6 +1074,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -1062,6 +1104,8 @@
 				<integer>1</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -1090,6 +1134,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_cpuid_set_info</string>
 				<key>Comment</key>
@@ -1118,6 +1164,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1146,6 +1194,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1174,6 +1224,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1202,6 +1254,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1230,6 +1284,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_tsc_init</string>
 				<key>Comment</key>
@@ -1258,6 +1314,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1286,6 +1344,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1314,6 +1374,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
@@ -1342,6 +1404,8 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string>_lapic_interrupt</string>
 				<key>Comment</key>
@@ -1370,10 +1434,12 @@
 				<integer>0</integer>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>algrey - mtrr_update_action - fix PAT</string>
+				<string>Shaneee - mtrr_update_action - fix PAT</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -1391,7 +1457,7 @@
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
-				<data>uXcCAAC4BgEHALoGAQcADx9AAA==</data>
+				<data>uXcCAAC4BgYGBroGBgYGDzAPCQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
