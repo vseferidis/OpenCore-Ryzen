@@ -9,9 +9,15 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
             // PTXH (1022_43d0)
             "PTXH", Package()
             {
-                "port-count", Buffer() { 0x15, 0x00, 0x00, 0x00 },
+                "port-count", Buffer() { 0x16, 0x00, 0x00, 0x00 },
                 "ports", Package()
                 {
+                      "PO10", Package()
+                      {
+                          "name", Buffer() { "PO10" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x0A, 0x00, 0x00, 0x00 },
+                      },
                       "PO11", Package()
                       {
                           "name", Buffer() { "PO11" },
@@ -33,19 +39,31 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                       "PO14", Package()
                       {
                           "name", Buffer() { "PO14" },
-                          "UsbConnector", 10,
+                          "UsbConnector", 3,
                           "port", Buffer() { 0x0E, 0x00, 0x00, 0x00 },
+                      },
+                      "PO15", Package()
+                      {
+                          "name", Buffer() { "PO15" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x0F, 0x00, 0x00, 0x00 },
+                      },
+                      "PO16", Package()
+                      {
+                          "name", Buffer() { "PO16" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x10, 0x00, 0x00, 0x00 },
                       },
                       "PO17", Package()
                       {
                           "name", Buffer() { "PO17" },
-                          "UsbConnector", 10,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x11, 0x00, 0x00, 0x00 },
                       },
                       "PO18", Package()
                       {
                           "name", Buffer() { "PO18" },
-                          "UsbConnector", 10,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x12, 0x00, 0x00, 0x00 },
                       },
                       "PO19", Package()
@@ -63,8 +81,68 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                       "PO21", Package()
                       {
                           "name", Buffer() { "PO21" },
-                          "UsbConnector", 10,
+                          "UsbConnector", 255,
                           "port", Buffer() { 0x15, 0x00, 0x00, 0x00 },
+                      },
+                      "PO22", Package()
+                      {
+                          "name", Buffer() { "PO22" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x16, 0x00, 0x00, 0x00 },
+                      },
+                      "PO9", Package()
+                      {
+                          "name", Buffer() { "PO9" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x09, 0x00, 0x00, 0x00 },
+                      },
+                      "POT1", Package()
+                      {
+                          "name", Buffer() { "POT1" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x01, 0x00, 0x00, 0x00 },
+                      },
+                      "POT2", Package()
+                      {
+                          "name", Buffer() { "POT2" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x02, 0x00, 0x00, 0x00 },
+                      },
+                      "POT3", Package()
+                      {
+                          "name", Buffer() { "POT3" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x03, 0x00, 0x00, 0x00 },
+                      },
+                      "POT4", Package()
+                      {
+                          "name", Buffer() { "POT4" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x04, 0x00, 0x00, 0x00 },
+                      },
+                      "POT5", Package()
+                      {
+                          "name", Buffer() { "POT5" },
+                          "UsbConnector", 9,
+                          "port", Buffer() { 0x05, 0x00, 0x00, 0x00 },
+                      },
+                      "POT6", Package()
+                      {
+                          "name", Buffer() { "POT6" },
+                          "UsbConnector", 9,
+                          "port", Buffer() { 0x06, 0x00, 0x00, 0x00 },
+                      },
+                      "POT7", Package()
+                      {
+                          "name", Buffer() { "POT7" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x07, 0x00, 0x00, 0x00 },
+                      },
+                      "POT8", Package()
+                      {
+                          "name", Buffer() { "POT8" },
+                          "UsbConnector", 3,
+                          "port", Buffer() { 0x08, 0x00, 0x00, 0x00 },
                       },
                 },
             },
@@ -95,13 +173,13 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                       "PRT4", Package()
                       {
                           "name", Buffer() { "PRT4" },
-                          "UsbConnector", 3,
+                          "UsbConnector", 9,
                           "port", Buffer() { 0x04, 0x00, 0x00, 0x00 },
                       },
                       "PRT5", Package()
                       {
                           "name", Buffer() { "PRT5" },
-                          "UsbConnector", 3,
+                          "UsbConnector", 9,
                           "port", Buffer() { 0x05, 0x00, 0x00, 0x00 },
                       },
                 },
