@@ -241,11 +241,6 @@
 				<key>built-in</key>
 				<data>AQ==</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>built-in</key>
-				<data>AQAAAA==</data>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -2318,7 +2313,7 @@
 			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
-			<true/>
+			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -2503,7 +2498,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 npci=0x2000 alcid=1 -v -f agdpmod=pikera</string>
+				<string>keepsyms=1 debug=0x100 npci=0x2000 alcid=1 -v agdpmod=pikera</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
