@@ -13,7 +13,7 @@ Following hardware is used:
 | Wireless | Fenvi T919 |
 | Extras: | USB-C expansion from PCI lanes |
 
-##Deviations from Dortania
+## Deviations from Dortania
 My Ryzentosh is equiped with an Samsung EVO 970 M.2 SSD. 
 By default Dortanias guide publishes it with TRIM enabled. 
 However for me to avoid 5' long boot times I have set this to disabled. 
