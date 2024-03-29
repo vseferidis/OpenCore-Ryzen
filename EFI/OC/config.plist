@@ -246,6 +246,194 @@
 		<key>Delete</key>
 		<dict/>
 	</dict>
+	<key>Misc</key>
+	<dict>
+		<key>BlessOverride</key>
+		<array/>
+		<key>Boot</key>
+		<dict>
+			<key>ConsoleAttributes</key>
+			<integer>0</integer>
+			<key>HibernateMode</key>
+			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<false/>
+			<key>HideAuxiliary</key>
+			<true/>
+			<key>InstanceIdentifier</key>
+			<string></string>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
+			<key>PickerAttributes</key>
+			<integer>17</integer>
+			<key>PickerAudioAssist</key>
+			<false/>
+			<key>PickerMode</key>
+			<string>External</string>
+			<key>PickerVariant</key>
+			<string>Acidanthera\Syrah</string>
+			<key>PollAppleHotKeys</key>
+			<false/>
+			<key>ShowPicker</key>
+			<true/>
+			<key>TakeoffDelay</key>
+			<integer>0</integer>
+			<key>Timeout</key>
+			<integer>5</integer>
+		</dict>
+		<key>Debug</key>
+		<dict>
+			<key>AppleDebug</key>
+			<false/>
+			<key>ApplePanic</key>
+			<false/>
+			<key>DisableWatchDog</key>
+			<false/>
+			<key>DisplayDelay</key>
+			<integer>0</integer>
+			<key>DisplayLevel</key>
+			<integer>2147483650</integer>
+			<key>LogModules</key>
+			<string>*</string>
+			<key>SysReport</key>
+			<false/>
+			<key>Target</key>
+			<integer>0</integer>
+		</dict>
+		<key>Entries</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>Not signed for security reasons</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>Name</key>
+				<string>CustomOS</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+		</array>
+		<key>Security</key>
+		<dict>
+			<key>AllowSetDefault</key>
+			<false/>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>AuthRestart</key>
+			<false/>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
+			<key>ExposeSensitiveData</key>
+			<integer>14</integer>
+			<key>HaltLevel</key>
+			<integer>2147483648</integer>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+			<key>ScanPolicy</key>
+			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
+			<key>Vault</key>
+			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
+		</dict>
+		<key>Tools</key>
+		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>CleanNvram.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>CleanNvram.efi</string>
+				<key>Path</key>
+				<string>CleanNvram.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>OpenShell.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>Path</key>
+				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<false/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>Kernel</key>
 	<dict>
 		<key>Add</key>
@@ -272,9 +460,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>USBMap.kext</string>
+				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -290,9 +478,9 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleMCEReporterDisabler.kext</string>
+				<string>Display-6b3-2768.kext</string>
 				<key>Comment</key>
-				<string>AppleMCEReporterDisabler.kext</string>
+				<string>Display-6b3-2768.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -362,6 +550,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+				<key>Comment</key>
+				<string>USBMap.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string>VirtualSMC.kext</string>
@@ -416,13 +622,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AppleALCU.kext</string>
+				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>AppleALCU.kext</string>
+				<string>AppleALC.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AppleALCU</string>
+				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1246,194 +1452,6 @@
 			<string>Auto</string>
 		</dict>
 	</dict>
-	<key>Misc</key>
-	<dict>
-		<key>BlessOverride</key>
-		<array/>
-		<key>Boot</key>
-		<dict>
-			<key>ConsoleAttributes</key>
-			<integer>0</integer>
-			<key>HibernateMode</key>
-			<string>None</string>
-			<key>HibernateSkipsPicker</key>
-			<false/>
-			<key>HideAuxiliary</key>
-			<true/>
-			<key>InstanceIdentifier</key>
-			<string></string>
-			<key>LauncherOption</key>
-			<string>Disabled</string>
-			<key>LauncherPath</key>
-			<string>Default</string>
-			<key>PickerAttributes</key>
-			<integer>17</integer>
-			<key>PickerAudioAssist</key>
-			<false/>
-			<key>PickerMode</key>
-			<string>External</string>
-			<key>PickerVariant</key>
-			<string>Acidanthera\Syrah</string>
-			<key>PollAppleHotKeys</key>
-			<false/>
-			<key>ShowPicker</key>
-			<true/>
-			<key>TakeoffDelay</key>
-			<integer>0</integer>
-			<key>Timeout</key>
-			<integer>5</integer>
-		</dict>
-		<key>Debug</key>
-		<dict>
-			<key>AppleDebug</key>
-			<false/>
-			<key>ApplePanic</key>
-			<false/>
-			<key>DisableWatchDog</key>
-			<false/>
-			<key>DisplayDelay</key>
-			<integer>0</integer>
-			<key>DisplayLevel</key>
-			<integer>2147483650</integer>
-			<key>LogModules</key>
-			<string>*</string>
-			<key>SysReport</key>
-			<false/>
-			<key>Target</key>
-			<integer>0</integer>
-		</dict>
-		<key>Entries</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string>Not signed for security reasons</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>CustomOS</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1,0x1)/Pci(0x0,0x0)/NVMe(0x1,11-22-33-44-55-66-77-88)/HD(1,GPT,00000000-0000-0000-0000-000000000000,0x800,0x64000)/\EFI\BOOT\BOOTX64.EFI</string>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
-		<key>Security</key>
-		<dict>
-			<key>AllowSetDefault</key>
-			<false/>
-			<key>ApECID</key>
-			<integer>0</integer>
-			<key>AuthRestart</key>
-			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
-			<key>DmgLoading</key>
-			<string>Signed</string>
-			<key>EnablePassword</key>
-			<false/>
-			<key>ExposeSensitiveData</key>
-			<integer>14</integer>
-			<key>HaltLevel</key>
-			<integer>2147483648</integer>
-			<key>PasswordHash</key>
-			<data></data>
-			<key>PasswordSalt</key>
-			<data></data>
-			<key>ScanPolicy</key>
-			<integer>0</integer>
-			<key>SecureBootModel</key>
-			<string>Disabled</string>
-			<key>Vault</key>
-			<string>Optional</string>
-		</dict>
-		<key>Serial</key>
-		<dict>
-			<key>Custom</key>
-			<dict>
-				<key>BaudRate</key>
-				<integer>115200</integer>
-				<key>ClockRate</key>
-				<integer>1843200</integer>
-				<key>DetectCable</key>
-				<false/>
-				<key>ExtendedTxFifoSize</key>
-				<integer>64</integer>
-				<key>FifoControl</key>
-				<integer>7</integer>
-				<key>LineControl</key>
-				<integer>7</integer>
-				<key>PciDeviceInfo</key>
-				<data>/w==</data>
-				<key>RegisterAccessWidth</key>
-				<integer>8</integer>
-				<key>RegisterBase</key>
-				<integer>1016</integer>
-				<key>RegisterStride</key>
-				<integer>1</integer>
-				<key>UseHardwareFlowControl</key>
-				<false/>
-				<key>UseMmio</key>
-				<false/>
-			</dict>
-			<key>Init</key>
-			<false/>
-			<key>Override</key>
-			<false/>
-		</dict>
-		<key>Tools</key>
-		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>CleanNvram.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>CleanNvram.efi</string>
-				<key>Path</key>
-				<string>CleanNvram.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>OpenShell.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>FullNvramAccess</key>
-				<false/>
-				<key>Name</key>
-				<string>OpenShell.efi</string>
-				<key>Path</key>
-				<string>OpenShell.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-		</array>
-	</dict>
 	<key>NVRAM</key>
 	<dict>
 		<key>Add</key>
@@ -1457,7 +1475,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 agdpmod=pikera -radcodec alcid=1 unfairgva=1</string>
+				<string>keepsyms=1 agdpmod=pikera -radcodec alcid=1 unfairgva=1 -lilubeta alcid=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1724,13 +1742,25 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string>HfsPlus.efi</string>
+				<string>OpenCanopy.efi</string>
 				<key>Enabled</key>
 				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
-				<string>HfsPlus.efi</string>
+				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string>OpenHfsPlus.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
+				<string>OpenHfsPlus.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
@@ -1743,18 +1773,6 @@
 				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Comment</key>
-				<string>OpenCanopy.efi</string>
-				<key>Enabled</key>
-				<true/>
-				<key>LoadEarly</key>
-				<false/>
-				<key>Path</key>
-				<string>OpenCanopy.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
